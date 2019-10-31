@@ -10,14 +10,14 @@ parameter, parameters, parameters build, parameterized, parameterized build
 There are 2 ways of defining parameters, see
 
 ```yaml
-paramters
+paramters:
     nameA: "value1"
     nameB:
         value: "value2"
         description: "description of nameB"
 ```
 
-Parameters are dictionary which expects `key:value` pairs.
+**Parameters** is a dictionary which expects `key:value` pairs.
 
 ```yaml
 nameA: "value1"
@@ -50,9 +50,8 @@ jobs:
     main:
         requires: [~pr, ~commit]
         steps:
-            - step1: echo "Region: $(meta get parameters.region.value)"
-            - step2: echo "AZ: $(meta get parameters.az.value)"
-
+            - step1: 'echo "Region: $(meta get parameters.region.value)"'
+            - step2: 'echo "AZ: $(meta get parameters.az.value)"'
 ```
 
 You can also preview the parameters that being used during a build in `Setup` -> `sd-setup-init` step
