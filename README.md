@@ -58,6 +58,8 @@ You can also preview the parameters that being used during a build in `Setup` ->
 
 Pipeline Preview Screenshot:
 
+![image](https://user-images.githubusercontent.com/15989893/67988805-49c5d180-fbee-11e9-8f45-dfb7a564146a.png)
+
 ![image](https://user-images.githubusercontent.com/15989893/67988338-e5564280-fbec-11e9-9946-93fa7d79de94.png)
 
 ![image](https://user-images.githubusercontent.com/15989893/67988423-251d2a00-fbed-11e9-8fe0-5644242d80b7.png)
