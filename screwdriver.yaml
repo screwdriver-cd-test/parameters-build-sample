@@ -11,5 +11,5 @@ jobs:
     main:
         requires: [~pr, ~commit]
         steps:
-            - step1: echo "Region: $(meta get parameters.region.value)"
-            - step2: echo "AZ: $(meta get parameters.az.value)"
+            - step1: 'echo "Region: $(meta get parameters.region.value)"'
+            - step2: 'echo "AZ: $(meta get parameters.az.value)"'
