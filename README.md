@@ -1,5 +1,8 @@
 # Parameters Screwdriver Yaml
+<details>
+<summary>Screwdriver Keywords</summary>
 parameter, parameters, parameters build, parameterized, parameterized build
+</details>
 
 `Parameters` are defined on the top level of `screwdriver.yaml`, see below as example.
 
@@ -31,6 +34,7 @@ nameA:
 These two are identical with description to be an empty string
 
 ## Example
+See [Screwdriver pipeline](https://cd.screwdriver.cd/pipelines/3449/events)
 
 ```yaml
 shared:
