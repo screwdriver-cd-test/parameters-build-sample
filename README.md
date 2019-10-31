@@ -55,6 +55,14 @@ jobs:
 
 ```
 
+You can also preview the parameters that being used during a build in `Setup` -> `sd-setup-init` step
+
+Pipeline Preview Screenshot:
+
+![image](https://user-images.githubusercontent.com/15989893/67988338-e5564280-fbec-11e9-9946-93fa7d79de94.png)
+
+![image](https://user-images.githubusercontent.com/15989893/67988423-251d2a00-fbed-11e9-8fe0-5644242d80b7.png)
+
 ## Further Reading
 
 Please see [Screwdriver](http://screwdriver.cd)'s issue [1339](https://github.com/screwdriver-cd/screwdriver/issues/1339) for more discussions. Feel free to reach out at slack or submit github issues if you have any questions, thanks!
