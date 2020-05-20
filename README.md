@@ -10,7 +10,7 @@ parameter, parameters, parameters build, parameterized, parameterized build
 There are 2 ways of defining parameters, see
 
 ```yaml
-paramters:
+parameters:
     nameA: "value1"
     nameB:
         value: "value2"
