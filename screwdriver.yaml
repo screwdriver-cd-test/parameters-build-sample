@@ -18,3 +18,13 @@ jobs:
         steps:
             - step1: 'echo "Region: $(meta get parameters.region.value)"'
             - step2: 'echo "AZ: $(meta get parameters.az.value)"'
+    development:
+        requires: [next]
+        steps:
+            - step1: 'echo "Region: $(meta get parameters.region.value)"'
+            - step2: 'echo "AZ: $(meta get parameters.az.value)"'
+    test:
+        requires: [development]
+        steps:
+            - step1: 'echo "Region: $(meta get parameters.region.value)"'
+            - step2: 'echo "AZ: $(meta get parameters.az.value)"'
