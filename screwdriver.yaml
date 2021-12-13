@@ -1,11 +1,12 @@
 shared:
-    image: node:8
+    image: node:12
 
 parameters:
     region: "us-west-1"
     az:
         value: "1"
         description: "default availability zone"
+    test: "test"
 
 jobs:
     main:
